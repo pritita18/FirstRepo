@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    top: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form{
+    border-radius: 10px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 200px;
+    background: rgba(39, 177, 170, 0.25);
+    box-shadow: 0 8px 32px 0 rgba(14, 189, 131, 0.37);
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 10px;
+}
+
+form{
+    font-size: x-large;
+}
+
+.input{
+    height: 20px;
+    width: 100px;
+} 
+
+::placeholder{
+    color: cadetblue;
+}
+
+.form:hover{
+    background: #e0e0e0;
+    box-shadow: 20px 20px 60px #bebebe,
+             -20px -20px 60px #ffffff;
+   
+}
+
